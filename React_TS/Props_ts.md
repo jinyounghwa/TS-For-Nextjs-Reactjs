@@ -55,4 +55,4 @@ export default PostList;
 ```
 - ```const data:PostProps[] = await getData(): getData ```함수를 호출하고 수신된 JSON 데이터(기대되는 PostProps 개체의 배열)를 data 변수에 할당한다. PostProps는 배열로 가져온다.
 - ```data.map((post:PostProps) => { ... }): data``` 배열을 반복하고 각 게시물 개체에 대해 PostCard 구성 요소를 렌더링하기 위한 JSX를 생성하고 반환한다.
-- ```<PostCard key={post.id} title={post.title} body={post.body} />```: 루프에서 현재 게시물 개체에서 추출된 props를 사용하여 PostCard 구성 요소를 렌더링합니다. 효율적인 DOM diffing을 위해 key prop을 게시물의 id로 설정한다.
+- ```<PostCard key={post.id} title={post.title} body={post.body} />```: 루프에서 현재 게시물 개체에서 추출된 props를 사용하여 PostCard 구성 요소를 렌더링한다. 효율적인 DOM diffing을 위해 key prop을 게시물의 id로 설정한다.
