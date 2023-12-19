@@ -50,3 +50,4 @@ const testMe3: IPostEvenBetter<ICategory>  = {
     content: 'test',
     extra: [{id: 1, title: 'test'}],
 }
+
