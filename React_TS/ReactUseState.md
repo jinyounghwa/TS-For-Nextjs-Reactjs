@@ -11,8 +11,9 @@ type UserType = {
 const UseStateExample = () => {
   const [username, setUsername] = useState("");
   const [user, setUser] = useState<UserType | null>(null);
-  // OR
+  // 또는 이렇게 할 수 있다.
   // const [user, setUser] = useState<UserType>();
+  // const [user, setUser] = useState<T>(null);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setUsername(e.target.value);
