@@ -1,7 +1,7 @@
 ## 자바스크립트 런타임 Bun.js 테스트 
 https://bun.sh/
-- 설치
-- 번들링
+- install / init
+- The Bundler / Build
 - HTTP server
 
 ### 그 외 좋은 기능들은 있지만 아직은 사용하지 않음
